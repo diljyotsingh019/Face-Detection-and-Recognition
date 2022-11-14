@@ -1,2 +1,2 @@
 # Face-Detection-and-Recognition
-Created a face detector using OpenCV and haarcascade model as a face classifier
+Initially the classifier detects the face using haarcaascade classifier from cv2 library. Once the face has been detected, we save 200 images of that face continuously at different timestamps for the training dataset. This training dataset is then used to train the LBPHFaceRecognizer model from cv2 library. This model can be used as a  face unlock for security systems.
